@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+}
+
+h1, h2, h3 {
+    color: #0066ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.red-text {
+    color: #ff0000;
+}
+
+.circle-list {
+     list-style: circle;
+}
+
+ div, #highlight-block {
+    font-size: 110%;
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+a, #highlight-block {
+    text-decoration: underline;
+    color: green;
+}
+
+a :hover, #highlight-block {
+     color: yellow;
+     font-weight: bold;
+}
