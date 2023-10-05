@@ -35,12 +35,12 @@ h3 {
     padding: 10px;
 }
 
-a, #highlight-block {
+ #highlight-block a {
     text-decoration: underline;
     color: green;
 }
 
-a :hover, #highlight-block {
+ #highlight-block a:hover {
      color: yellow;
      font-weight: bold;
 }
